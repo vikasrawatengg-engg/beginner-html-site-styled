@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: site-container
-        image: <YOUR_DOCKERHUB_USERNAME>/beginner-site:latest
+        image: vikasrawatengg@gmail.com/beginner-site:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
