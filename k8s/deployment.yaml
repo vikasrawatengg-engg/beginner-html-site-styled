@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: site-container
-        image: vikasrawatengg@gmail.com/beginner-site:latest
+        image: vikasrawatengg/beginner-site:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
