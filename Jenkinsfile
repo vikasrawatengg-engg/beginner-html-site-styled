@@ -2,7 +2,7 @@ pipeline {
     agent { label 'K8s-Master' }
 
     environment {
-        DOCKERHUB_USER = '<YOUR_DOCKERHUB_USERNAME>'
+        DOCKERHUB_USER = 'vikasrawatengg@gmail.com'
         IMAGE_NAME     = 'beginner-site'
         DOCKER_CREDS   = 'dockerhub-credentials'
     }
